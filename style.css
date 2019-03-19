@@ -1,0 +1,174 @@
+body{
+  width: 100%;
+  overflow-x: hidden; 
+}
+nav{
+width: 100%;  
+overflow-x: hidden;
+}
+.contaiiner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 200px;
+}
+
+.show{
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+
+.show:hover{
+  background-color:white;
+  color: black; 
+}
+.rshow{
+  background-color: red;
+  color: white;
+}
+
+.rshow:hover{
+  background-color:white;
+  color: red; 
+}
+
+.iconss i{
+  margin:0 10px;
+}
+.iconss{
+    margin-top: 20px;
+}
+.bre{
+ background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.city {
+  position: relative;
+  width: 50%;
+}
+
+.cityimg {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.city:hover .cityimg {
+  opacity: 0.1;
+}
+
+.city:hover .middle {
+  opacity: 0.8;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+@media screen and (max-width: 568px) {
+ nav ul li{
+  background-color: #343a40 !important;
+ }
+  .farst ul{
+    margin-left: 0px;
+  }
+  .farst{
+    font-size:10px; 
+  }
+
+  .bgimg{
+    height: 450px;
+  }
+  .bgimg img{
+    height: 100%;
+  }
+  .contaiiner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered h1{
+  font-size: 27px;
+  margin-top:130px;
+  font-weight: bolder;
+  padding-bottom:20px;
+}
+.occ{
+  font-size: 35px;
+}
+.bre .card{
+  height: 260px;
+}
+
+.bre .card-img-top{
+  width:100%;
+  height:180px;
+}
+.bre .card-body .btn{
+display: inline-block;
+font-size: 15px;
+}
+ .duty h1{
+  font-size: 30px;
+ }
+ .duty iframe{
+  height: 250px;
+  width:100%;
+ }
+ .duty h4{
+  margin-top: 10px;
+  font-size: 20px;
+ }
+ .duty{
+  height: 700px;
+ }
+ .btn.show{
+  margin: 0 48px;
+ }
+ .bre h1{
+  font-size: 28px;
+ }
+ .bre .row img{
+  height: 200px !important;
+  width: 100% !important;
+  margin-top: 20px;
+ }
+ .card-group .card{
+  width: 100%;
+  margin: 0 0;
+ }
+.btn.rshow{
+  margin: 0 auto !important;
+ }
+}
